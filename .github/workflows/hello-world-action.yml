@@ -1,0 +1,9 @@
+name: hello-world-action
+on: push
+
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/hello-world
