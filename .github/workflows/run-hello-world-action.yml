@@ -5,4 +5,4 @@ jobs:
   hello:
     runs-on: ubuntu-18.04
     steps:
-      - uses: emgniddikur/hello-world-action@v1.0.0
+      - uses: emgniddikur/hello-world-action@v1.0.1
